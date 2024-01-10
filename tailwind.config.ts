@@ -9,6 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        black:{
+          10:"#FFFFFF", // text
+          30:"#B3B3B3", // secondary text
+          50:"#404040", // top gradient
+          60:"#282828", // bottom gradient
+          70:"#181818", // menu bar
+          80:"#121212", // background
+          90:"#000000" // black
+        },
         green: {
           50: '#30AF5B',
           90: '#292C27',
