@@ -33,7 +33,7 @@ const config: Config = {
           50: '#FF814C',
         },
         blue: {
-          70: '#021639',
+          30: '#00B4D8',
         },
         yellow: {
           50: '#FEC601',
