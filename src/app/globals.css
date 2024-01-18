@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,9 +16,9 @@ body {
 }
 
 @layer utilities {
-  /* .fontInter {
-    @apply font-Inter;
-  } */
+  .font-inter {
+      font-family: 'Inter', sans-serif;
+    }
 
   .btn_black {
     @apply border-white bg-black-90 px-8 py-3 text-white
