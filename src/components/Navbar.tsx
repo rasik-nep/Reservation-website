@@ -14,7 +14,7 @@ function NavLinks() {
         <>
             {NAV_LINKS.map((link) => (
                 <li key={link.key}>
-                    <Link href={link.href} className="regular-16 text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+                    <Link href={link.href} className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
                         {link.label}
                     </Link>
                 </li>
