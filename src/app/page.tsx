@@ -5,12 +5,12 @@ import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 
 export default function Home() {
-  return (<>
+  return (<div className="bg-black-70">
     <Hero></Hero>
-    <Camp></Camp>
+    {/* <Camp></Camp>
     <Guide></Guide>
     <Features></Features>
-    <GetApp></GetApp>
-  </>
+    <GetApp></GetApp> */}
+  </div>
   )
 }

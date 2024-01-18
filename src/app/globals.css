@@ -12,12 +12,12 @@
 }
 
 body {
-  font-family: 'Dancing Script', cursive;
+      font-family: 'Inter', sans-serif;
 }
 
 @layer utilities {
-  .font-inter {
-      font-family: 'Inter', sans-serif;
+  .font-cursive {
+      font-family: 'Dancing Script', cursive;
     }
 
   .btn_black {

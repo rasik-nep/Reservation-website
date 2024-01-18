@@ -32,7 +32,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className=" sticky top-0 z-[20] mx-auto w-full padding-container py-5 bg-black-90">
+        <nav className=" top-0 z-[20] mx-auto w-full padding-container py-5 bg-black-90">
             <div className="flexBetween flex-wrap max-container">
                 <Link href='/'>
                     <Image src='/logo.png' alt="logo" width={30} height={29} />
