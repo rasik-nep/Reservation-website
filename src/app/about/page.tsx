@@ -1,4 +1,4 @@
-import Jumbotron from "@/components/Jumbotron";
+import { Jumbotron } from "@/components/Jumbotron";
 import Button from "@/components/Button";
 
 export default function Page() {
