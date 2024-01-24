@@ -12,17 +12,13 @@
 }
 
 body {
-      font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 nav {
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
   width: 100%;
-}
-
-.hero img {
-  height: 100vh;
 }
 
 .heading-container {
@@ -60,7 +56,7 @@ nav {
   }
 
   .max-container {
-    @apply mx-auto max-w-[1440px];
+    @apply mx-auto max-w-[1040px];
   }
 
   .full-container{
