@@ -32,24 +32,26 @@ const Navbar = () => {
     }
 
     return (
-        <nav className=" top-0 z-[20] mx-auto w-full padding-container py-5 bg-black-90">
+        <nav className="absolute w-full py-6 z-10">
             <div className="flexBetween flex-wrap max-container">
                 <Link href='/'>
-                    <Image src='/logo.png' alt="logo" width={30} height={29} />
+                    <Image src='/logo.webp' alt="logo" width={65} height={55} />
                 </Link>
                 <ul className="hidden h-full gap-12 lg:flex">
+                    <p className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hidden lg:inline-block">+1 234 567 890</p>
                     <NavLinks />
                 </ul>
-                <div className="lg:flexCenter hidden">
-                    <Button type="button" title="Reserve" variant="btn_dark_green" icon="/user.svg" />
+                <div className="flex flex-row gap-5">
+                    <div className="lg:flexCenter">
+                        <Button type="button" title="Book now" variant="btn_transparent" />
+                    </div>
+                    <p className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold inline-block lg:hidden">+1 234 567 890</p>
+                    <Image src="menu.svg" alt="menu" width={32} height={32} className=" cursor-pointer lg:hidden" onClick={handleShowMenu} />
+
                 </div>
-
-                <Image src="menu.svg" alt="menu" width={32} height={32} className="inline-block cursor-pointer lg:hidden" onClick={handleShowMenu} />
-
                 {showMenu && <ul className="flex flex-col items-center basis-full">
                     <NavLinks />
                 </ul>}
-
             </div>
         </nav>
     )

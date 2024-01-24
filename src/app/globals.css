@@ -15,10 +15,29 @@ body {
       font-family: 'Inter', sans-serif;
 }
 
+nav {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.hero img {
+  height: 100vh;
+}
+
+.heading-container {
+  height: 65vh;
+  top: -50px;
+}
+
 @layer utilities {
   .font-cursive {
       font-family: 'Dancing Script', cursive;
     }
+
+  .btn_transparent{
+    @apply border-white px-4 py-1 text-white
+  }
 
   .btn_black {
     @apply border-white bg-black-90 px-8 py-3 text-white
