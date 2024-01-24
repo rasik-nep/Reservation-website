@@ -15,12 +15,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-nav {
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-  width: 100%;
-}
-
 .heading-container {
   height: 65vh;
   top: -50px;

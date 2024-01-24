@@ -32,7 +32,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="absolute w-full py-6 z-10">
+        <nav className="absolute w-full z-10 py-[1.5rem]">
             <div className="flexBetween flex-wrap max-container">
                 <Link href='/'>
                     <Image src='/logo.webp' alt="logo" width={65} height={55} />
