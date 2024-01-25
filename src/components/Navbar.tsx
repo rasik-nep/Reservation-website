@@ -35,7 +35,7 @@ const Navbar = () => {
         <nav className="absolute w-full z-10 py-[1.5rem]">
             <div className="flexBetween flex-wrap max-container">
                 <Link href='/'>
-                    <Image src='/logo.webp' alt="logo" width={65} height={55} />
+                    <Image src='/logo.jpg' alt="logo" width={65} height={55} />
                 </Link>
                 <ul className="hidden h-full gap-12 lg:flex">
                     <p className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hidden lg:inline-block">+1 234 567 890</p>

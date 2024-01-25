@@ -16,7 +16,7 @@ const Hero = ({ title, subtitle, image, full }: HeroProps) => {
       <div
         className="h-[100vh] top-[-50px] absolute flex flex-col justify-center items-center w-full "
       >
-        <h1 className="text-7xl text-white font-cursive text-bold text-center">{title}</h1>
+        <h1 className="text-7xl font-cursive text-bold text-center">{title}</h1>
         {subtitle && <p className="text-xl mt-3 text-center">{subtitle}</p>}
       </div>
     </section>
