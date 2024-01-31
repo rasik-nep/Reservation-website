@@ -3,7 +3,7 @@ export default function Testimonials() {
         <section>
             <div className="full-container mt-12 mx-auto md:px-6 py-10 text-black-90">
                 <section className="mb-12 text-center">
-                    <h2 className="mb-12 text-3xl font-bold">Don't take our words for it</h2>
+                    <h2 className="mb-12 text-3xl font-bold">Don&apos;t take our words for it</h2>
                     <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
                         <div className="mb-12 md:mb-0">
                             <div className="mb-6 flex justify-center">
