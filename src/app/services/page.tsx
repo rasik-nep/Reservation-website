@@ -1,4 +1,4 @@
-import { Jumbotron } from "@/components/Jumbotron";
+import { Jumbotron } from "@/components/layout-comp/Jumbotron";
 
 export default function Page() {
     return <section className="bg-red-200">

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import Footer from '@/components/layout-comp/Footer'
+import Navbar from '@/components/layout-comp/Navbar'
 
 export const metadata: Metadata = {
   title: 'Travel',

@@ -1,10 +1,10 @@
-import { Jumbotron } from "@/components/Jumbotron";
+import { Jumbotron } from "@/components/layout-comp/Jumbotron";
 import Hero from "@/components/Hero";
-import Button from "@/components/Button";
+import Button from "@/components/input/Button";
 
 export default function Page() {
     return <section className="bg-black-70">
-        <Hero title={"About Us"}  image={'./lady-photo.jpeg'} full={false}></Hero>
+        <Hero title={"About Us"} image={'./lady-photo.jpeg'} full={false}></Hero>
 
     </section>;
 }
