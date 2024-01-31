@@ -5,8 +5,8 @@ import Footer from '@/components/layout-comp/Footer'
 import Navbar from '@/components/layout-comp/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Travel',
-  description: 'Travel UI UX app for camping',
+  title: 'Maya Brows bar',
+  description: 'Maya Brows bar',
 }
 
 export default function RootLayout({
