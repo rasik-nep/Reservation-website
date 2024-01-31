@@ -1,21 +1,21 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import MapContainer from '../Maps'
 
 const Footer = () => {
     return (
-        <footer className="flexCenter bg-black-90 pt-5">
+        <footer className="flexCenter bg-white pt-5 text-black-90">
             <div className="padding-container max-container flex w-full flex-col gap-14">
                 <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
                     <Link href="/" className="mb-10">
-                        <Image src="/logo.jpg" alt="logo" width={34} height={29} />
+                        <Image src="/logo.png" alt="logo" width={100} height={50} />
                     </Link>
 
                     <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
                         {FOOTER_LINKS.map((columns, index) => (
                             <FooterColumn title={columns.title} key={index}>
-                                <ul className="regular-14 flex flex-col gap-4 text-gray-20">
+                                <ul className="regular-14 flex flex-col gap-4 text-gray-50">
                                     {columns.links.map((link, linkIndex) => (
                                         <Link href="/" key={linkIndex}>
                                             {link}

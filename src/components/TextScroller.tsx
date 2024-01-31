@@ -7,7 +7,7 @@ type TextScrollerProps = {
 const TextScroller = ({ text }: TextScrollerProps) => {
     return (
         <Marquee autoFill={true} speed={200}>
-            <div className="text-red-400 m-10 text-8xl font-bold ">
+            <div className="text-red-400 m-5 text-8xl font-bold font-cursive">
                 {text}
             </div>
         </Marquee>

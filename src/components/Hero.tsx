@@ -1,3 +1,5 @@
+"use client"
+
 type HeroProps = {
   title: string;
   subtitle?: string;
@@ -6,8 +8,20 @@ type HeroProps = {
 }
 
 const Hero = ({ title, subtitle, image, full }: HeroProps) => {
+
+  // const scrollToNextSection = () => {
+  //   const nextSection = document.getElementById("LandingServiceID");
+
+  //   if (nextSection) {
+  //     window.scrollTo({
+  //       top: nextSection.offsetTop,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
+
   return (
-    <section className="hero">
+    <section className="hero bg-black-70">
       <img
         src={image}
         alt="Your Image"
@@ -18,6 +32,12 @@ const Hero = ({ title, subtitle, image, full }: HeroProps) => {
       >
         <h1 className="text-7xl font-cursive text-bold text-center">{title}</h1>
         {subtitle && <p className="text-xl mt-3 text-center">{subtitle}</p>}
+        {/* {full && <button
+          className=" text-black font-bold py-2 px-4 cursor-pointer"
+          onClick={scrollToNextSection}
+        >
+          Scroll Down
+        </button>} */}
       </div>
     </section>
   );
