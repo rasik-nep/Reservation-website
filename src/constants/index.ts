@@ -39,7 +39,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Maya Brows Bar',
       'Privacy Policy',
       'Contact Us',
     ],
@@ -51,14 +51,5 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: 'Admin Officer', value: '123-456-7890' },
     { label: 'Email Officer', value: 'hilink@akinthil.com' },
-  ],
-};
-
-export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
   ],
 };

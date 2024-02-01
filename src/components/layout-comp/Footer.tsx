@@ -1,6 +1,6 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
-import Image from 'next/image'
-import Link from 'next/link'
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from '@/constants'
+import Link from 'next/link';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -44,19 +44,22 @@ const Footer = () => {
                         </div>
 
                         <div className="flex flex-col gap-5">
-                            <FooterColumn title={SOCIALS.title}>
+                            <FooterColumn title={"Socials"}>
                                 <ul className="regular-14 flex gap-4">
-                                    {SOCIALS.links.map((link) => (
-                                        <Link href="/" key={link}>
-                                            <img src={link} alt="logo" className='h-[24px] w-[24px]' style={{ color: 'white' }} />
-                                        </Link>
-                                    ))}
+                                    <a href="https://www.facebook.com" target='__blank'>
+                                        <FaFacebookF className='text-black-90 hover:text-red-400 cursor-pointer text-2xl' />
+                                    </a>
+                                    <a href="https://www.instagram.com" target='__blank'>
+                                        <FaInstagram className='text-black-90 hover:text-red-400 cursor-pointer text-2xl' />
+                                    </a>
+                                    <a href="https://www.twitter.com" target='__blank'>
+                                        <FaTwitter className='text-black-90 hover:text-red-400 cursor-pointer text-2xl' />
+                                    </a>
                                 </ul>
                             </FooterColumn>
                         </div>
                     </div>
                 </div>
-
                 <div className="border bg-gray-20" />
                 <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
             </div>

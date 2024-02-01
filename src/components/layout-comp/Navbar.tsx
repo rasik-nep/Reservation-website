@@ -3,7 +3,7 @@
 import { NAV_LINKS } from "@/constants";
 import Link from "next/link"
 import Button from "../input/Button";
-
+import { MdOutlineMenu } from "react-icons/md";
 
 import { useState } from "react";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                         <Button type="button" title="Book now" variant="btn_transparent" />
                     </div>
                     <p className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold inline-block lg:hidden">+1 234 567 890</p>
-                    <img src="menu.svg" alt="menu" style={{ width: '32px',height:"32px" }} className=" cursor-pointer lg:hidden" onClick={handleShowMenu} />
+                    <MdOutlineMenu style={{ width: '32px', height: "32px" }} className=" cursor-pointer lg:hidden" onClick={handleShowMenu} />
                 </div>
                 {showMenu && <ul className="flex flex-col items-center basis-full">
                     <NavLinks />
