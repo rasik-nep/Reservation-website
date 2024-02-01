@@ -23,7 +23,7 @@ function HamburgerMenu({ closeMenu }: HamburgerMenuProps) {
             </div>
             <NavLinks closeHamburger={closeMenu} />
             <Button type="button" title="Book now" variant="btn_transparent_black" />
-            <p className="text-sm text-black-90 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">+1 234 567 890</p>
+            <p className="p-3 text-4xl text-black-90 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">+1 234 567 890</p>
         </div>
     );
 }
@@ -42,7 +42,7 @@ function NavLinks({ closeHamburger }: NavLinksProps) {
         <ul className="list-none p-0 m-0 flex flex-col lg:flex-row lg:gap-12">
             {NAV_LINKS.map((link) => (
                 <li key={link.key}>
-                    <Link href={link.href} className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold" onClick={handleLinkClick}>
+                    <Link href={link.href} className="text-4xl lg:text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold" onClick={handleLinkClick}>
                         {link.label}
                     </Link>
                 </li>
