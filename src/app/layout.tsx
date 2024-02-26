@@ -5,8 +5,8 @@ import Footer from '@/components/layout-comp/Footer'
 import Navbar from '@/components/layout-comp/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Maya Brows bar',
-  description: 'Maya Brows bar',
+  title: 'Maya Brows Bar',
+  description: 'Maya Brows Bar',
 }
 
 export default function RootLayout({

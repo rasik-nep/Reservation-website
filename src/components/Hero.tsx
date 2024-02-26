@@ -6,9 +6,10 @@ type HeroProps = {
   subtitle?: string;
   image: string;
   full: boolean;
+  showScrollButton?: boolean
 }
 
-const Hero = ({ title, subtitle, image, full }: HeroProps) => {
+const Hero = ({ title, subtitle, image, full, showScrollButton }: HeroProps) => {
 
   const scrollToNextSection = () => {
     const nextSection = document.getElementById("LandingServiceID");
@@ -37,8 +38,8 @@ const Hero = ({ title, subtitle, image, full }: HeroProps) => {
       </div>
       {/* Button placed at the right-bottom corner */}
       <div className="absolute bottom-4 right-4 mt-[00px] w-full">
-        {full && <FaAngleDoubleDown
-          className="text-red-100 cursor-pointer text-2xl mx-auto animate-bounce"
+        {full && showScrollButton && <FaAngleDoubleDown
+          className="text-white cursor-pointer text-2xl mx-auto animate-bounce"
           onClick={scrollToNextSection}
         />}
       </div>

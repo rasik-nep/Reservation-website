@@ -7,7 +7,7 @@ import Maps from "@/components/Maps";
 
 export default function Home() {
   return (<div className="bg-white">
-    <Hero title={"Because it has to be flawless."} subtitle={"EMBRACE YOUR UNIQUE STYLE"} image={'./landing-hero.jpg'} full={true}></Hero>
+    <Hero title={"Because it has to be flawless."} subtitle={"EMBRACE YOUR UNIQUE STYLE"} image={'./landing-hero.jpg'} full={true} showScrollButton={true}></Hero>
     <LandingServices></LandingServices>
     <Features></Features>
     <BookNow />
