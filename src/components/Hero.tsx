@@ -36,7 +36,7 @@ const Hero = ({ title, subtitle, image, full, showScrollButton }: HeroProps) => 
         {subtitle && <p className="text-xl mt-3 text-center">{subtitle}</p>}
 
       </div>
-      {/* Button placed at the right-bottom corner */}
+      {/* Button placed at the bottom */}
       <div className="absolute bottom-4 right-4 mt-[00px] w-full">
         {full && showScrollButton && <FaAngleDoubleDown
           className="text-white cursor-pointer text-2xl mx-auto animate-bounce"
