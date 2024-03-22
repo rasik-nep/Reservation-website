@@ -35,7 +35,7 @@ export default function Hero() {
                 </div>
                 <div className='md:w-[25%]'>
                     <div className='x-auto md:mt-[12rem] '>
-                        <p className='text-white text-4xl'>We’re focused.</p>
+                        <p className='text-white text-4xl'>We&apos;re focused.</p>
                         <p className='py-2'>We provide an exceptional service by only focusing on hair designing. Our goal is to provide a different type of experience by using responsible products.</p>
                     </div>
                 </div>
