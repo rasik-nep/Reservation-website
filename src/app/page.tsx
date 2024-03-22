@@ -1,18 +1,18 @@
-import LandingServices from "@/components/LandingServices";
-import Features from "@/components/features";
-import Hero from "@/components/Hero";
-import BookNow from "@/components/BookNow";
-import Testimonials from "@/components/Testimonials";
-import Maps from "@/components/Maps";
+import React from 'react'
+import Hero from '@/components/home/Hero';
+import WeLove from '@/components/home/WeLove';
+import Services from '@/components/home/Services';
+import Appoitment from '@/components/home/Appoitment';
 
-export default function Home() {
-  return (<div className="bg-white">
-    <Hero title={"Because it has to be flawless."} subtitle={"EMBRACE YOUR UNIQUE STYLE"} image={'./landing-hero.jpg'} full={true} showScrollButton={true}></Hero>
-    <LandingServices></LandingServices>
-    <Features></Features>
-    <BookNow />
-    <Testimonials></Testimonials>
-    <Maps></Maps>
-  </div>
+function App() {
+  return (
+    <React.Fragment>
+      <Hero />
+      <WeLove />
+      <Services />
+      <Appoitment />
+    </React.Fragment >
   )
 }
+
+export default App;
